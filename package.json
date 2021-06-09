@@ -1,0 +1,16 @@
+{
+  "name": "huaweivr",
+  "title": "HuaweiVRSupport",
+  "package_version": 2,
+  "version": "1.0.0",
+  "author": "WangYuZhi",
+  "description": "i18n:cocos-build-template.description",
+  "contributions": {
+    "builder": "./dist/builder.js"
+  },
+  "dependencies": {
+    "@types/electron": "^1.6.10",
+    "@types/fs-extra": "^5.0.4",
+    "@types/node": "^14.17.0"
+  }
+}

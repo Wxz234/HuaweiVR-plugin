@@ -1,0 +1,49 @@
+{
+  "buildFiles": [
+    "E:\\SDK\\0608_x3\\app\\HVRSDK_XrDemo\\jni\\Android.mk",
+    "E:\\SDK\\0608_x3\\app\\HVRSDK_XrDemo\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\ProgramFiles\\andriodSDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\SDK\\0608_x3\\app\\HVRSDK_XrDemo\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\SDK\\0608_x3\\app\\HVRSDK_XrDemo\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-22 NDK_OUT\u003dE:/SDK/0608_x3/app/HVRSDK_XrDemo/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\SDK\\0608_x3\\app\\HVRSDK_XrDemo\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "xrdemo-debug-armeabi-v7a": {
+      "buildCommand": "D:\\ProgramFiles\\andriodSDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\SDK\\0608_x3\\app\\HVRSDK_XrDemo\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\SDK\\0608_x3\\app\\HVRSDK_XrDemo\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-22 NDK_OUT\u003dE:/SDK/0608_x3/app/HVRSDK_XrDemo/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\SDK\\0608_x3\\app\\HVRSDK_XrDemo\\build\\intermediates\\ndkBuild\\debug\\lib E:/SDK/0608_x3/app/HVRSDK_XrDemo/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libxrdemo.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "xrdemo",
+      "files": [
+        {
+          "src": "E:\\SDK\\0608_x3\\app\\HVRSDK_XrDemo\\jni\\egl_environment.cpp",
+          "flags": "-target armv7-none-linux-androideabi22 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/ProgramFiles/andriodSDK/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IE:/SDK/0608_x3/app/HVRSDK_XrDemo/jni/openxr -IE:/SDK/0608_x3/app/HVRSDK_XrDemo/jni -ID:/ProgramFiles/andriodSDK/ndk-bundle/build//../sources/cxx-stl/llvm-libc++/include -ID:/ProgramFiles/andriodSDK/ndk-bundle/build//../sources/cxx-stl/llvm-libc++/../llvm-libc++abi/include -IE:/SDK/0608_x3/app/HVRSDK_XrDemo/jni -std\u003dc++11 -std\u003dc++11 -DANDROID -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\SDK\\0608_x3\\app\\HVRSDK_XrDemo\\jni\\gl_function_ext.cpp",
+          "flags": "-target armv7-none-linux-androideabi22 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/ProgramFiles/andriodSDK/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IE:/SDK/0608_x3/app/HVRSDK_XrDemo/jni/openxr -IE:/SDK/0608_x3/app/HVRSDK_XrDemo/jni -ID:/ProgramFiles/andriodSDK/ndk-bundle/build//../sources/cxx-stl/llvm-libc++/include -ID:/ProgramFiles/andriodSDK/ndk-bundle/build//../sources/cxx-stl/llvm-libc++/../llvm-libc++abi/include -IE:/SDK/0608_x3/app/HVRSDK_XrDemo/jni -std\u003dc++11 -std\u003dc++11 -DANDROID -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\SDK\\0608_x3\\app\\HVRSDK_XrDemo\\jni\\model.cpp",
+          "flags": "-target armv7-none-linux-androideabi22 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/ProgramFiles/andriodSDK/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IE:/SDK/0608_x3/app/HVRSDK_XrDemo/jni/openxr -IE:/SDK/0608_x3/app/HVRSDK_XrDemo/jni -ID:/ProgramFiles/andriodSDK/ndk-bundle/build//../sources/cxx-stl/llvm-libc++/include -ID:/ProgramFiles/andriodSDK/ndk-bundle/build//../sources/cxx-stl/llvm-libc++/../llvm-libc++abi/include -IE:/SDK/0608_x3/app/HVRSDK_XrDemo/jni -std\u003dc++11 -std\u003dc++11 -DANDROID -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\SDK\\0608_x3\\app\\HVRSDK_XrDemo\\jni\\texture.cpp",
+          "flags": "-target armv7-none-linux-androideabi22 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/ProgramFiles/andriodSDK/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IE:/SDK/0608_x3/app/HVRSDK_XrDemo/jni/openxr -IE:/SDK/0608_x3/app/HVRSDK_XrDemo/jni -ID:/ProgramFiles/andriodSDK/ndk-bundle/build//../sources/cxx-stl/llvm-libc++/include -ID:/ProgramFiles/andriodSDK/ndk-bundle/build//../sources/cxx-stl/llvm-libc++/../llvm-libc++abi/include -IE:/SDK/0608_x3/app/HVRSDK_XrDemo/jni -std\u003dc++11 -std\u003dc++11 -DANDROID -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "E:\\SDK\\0608_x3\\app\\HVRSDK_XrDemo\\jni\\xr_demo.cpp",
+          "flags": "-target armv7-none-linux-androideabi22 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot D:/ProgramFiles/andriodSDK/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -IE:/SDK/0608_x3/app/HVRSDK_XrDemo/jni/openxr -IE:/SDK/0608_x3/app/HVRSDK_XrDemo/jni -ID:/ProgramFiles/andriodSDK/ndk-bundle/build//../sources/cxx-stl/llvm-libc++/include -ID:/ProgramFiles/andriodSDK/ndk-bundle/build//../sources/cxx-stl/llvm-libc++/../llvm-libc++abi/include -IE:/SDK/0608_x3/app/HVRSDK_XrDemo/jni -std\u003dc++11 -std\u003dc++11 -DANDROID -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "E:\\SDK\\0608_x3\\app\\HVRSDK_XrDemo\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libxrdemo.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cppCompilerExecutable": "D:\\ProgramFiles\\andriodSDK\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

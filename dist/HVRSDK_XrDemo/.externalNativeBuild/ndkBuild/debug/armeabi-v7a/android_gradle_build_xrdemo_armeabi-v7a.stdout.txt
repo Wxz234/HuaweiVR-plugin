@@ -1,0 +1,1 @@
+make: `E:/SDK/0608_x3/app/HVRSDK_XrDemo/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libxrdemo.so' is up to date.

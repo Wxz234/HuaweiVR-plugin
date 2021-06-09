@@ -1,0 +1,17 @@
+{
+  "buildFiles": [
+    "E:\\SDK\\0608_x3\\app\\HVRSDK_XrDemo\\jni\\Android.mk",
+    "E:\\SDK\\0608_x3\\app\\HVRSDK_XrDemo\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "D:\\ProgramFiles\\andriodSDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\SDK\\0608_x3\\app\\HVRSDK_XrDemo\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\SDK\\0608_x3\\app\\HVRSDK_XrDemo\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-22 NDK_OUT\u003dE:/SDK/0608_x3/app/HVRSDK_XrDemo/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\SDK\\0608_x3\\app\\HVRSDK_XrDemo\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "xrdemo-debug-armeabi-v7a": {
+      "artifactName": "xrdemo",
+      "buildCommand": "D:\\ProgramFiles\\andriodSDK\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dE:\\SDK\\0608_x3\\app\\HVRSDK_XrDemo\\jni\\Android.mk NDK_APPLICATION_MK\u003dE:\\SDK\\0608_x3\\app\\HVRSDK_XrDemo\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-22 NDK_OUT\u003dE:/SDK/0608_x3/app/HVRSDK_XrDemo/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dE:\\SDK\\0608_x3\\app\\HVRSDK_XrDemo\\build\\intermediates\\ndkBuild\\debug\\lib E:/SDK/0608_x3/app/HVRSDK_XrDemo/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libxrdemo.so",
+      "abi": "armeabi-v7a",
+      "output": "E:\\SDK\\0608_x3\\app\\HVRSDK_XrDemo\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libxrdemo.so"
+    }
+  }
+}
